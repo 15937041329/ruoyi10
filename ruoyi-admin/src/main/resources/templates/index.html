@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
-    <title>若依系统首页</title>
+    <title>昕昕系统首页</title>
     <!--[if lt IE 9]>
     <meta http-equiv="refresh" content="0;ie.html"/>
     <![endif]-->
@@ -28,7 +28,7 @@
         <div class="sidebar-collapse">
             <ul class="nav" id="side-menu">
                 <li class="logo">
-				     <span class="logo-lg">RuoYi</span>
+				     <span class="logo-lg">XinXin</span>
             	</li>
             	<li>
             		<div class="user-panel">
@@ -48,7 +48,7 @@
                  <li class="active">
                     <a href="index.html"><i class="fa fa-home"></i> <span class="nav-label">主页</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
-                        <li class="active"><a class="menuItem" th:href="@{/system/main}">了解若依</a></li>
+                        <li class="active"><a class="menuItem" th:href="@{/system/main}">Hello！</a></li>
                     </ul>
                 </li>
                 <li th:each="menu : ${menus}">
@@ -235,7 +235,7 @@
 <script th:src="@{/ruoyi/js/ry-ui.js?v=4.0.0}"></script>
 <script th:src="@{/ruoyi/index.js}"></script>
 <script th:src="@{/ajax/libs/fullscreen/jquery.fullscreen.js}"></script>
-<script th:inline="javascript"> 
+<script th:inline="javascript">
 var ctx = [[@{/}]];
 /*用户管理-重置密码*/
 function resetPwd() {
